@@ -13,7 +13,7 @@ struct feature_node
 
 struct problem
 {
-	int l, n;
+	int l, n;// l is number of training instance,n is number of feature
 	double *y;
 	struct feature_node **x;
 	double bias;            /* < 0 if no bias term */  
